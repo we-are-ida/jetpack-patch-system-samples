@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Jetpack (by iDA)">
+    <toolname
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Tool Name"
+    jcr:description="Manage Tool Name"
+    href="/jetpack/tool-name.html"
+    consoleId="jetpack-tool-name"
+    icon="shuffle"
+    order="{Long}200"/>
+</jcr:root>
