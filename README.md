@@ -1,14 +1,8 @@
-[![Build Status](https://travis-ci.org/ida-mediafoundry/jetpack-tool-name.svg?branch=master)](https://travis-ci.org/ida-mediafoundry/jetpack-tool-name)[![codecov](https://codecov.io/gh/ida-mediafoundry/jetpack-tool-name/branch/master/graph/badge.svg)](https://codecov.io/gh/ida-mediafoundry/jetpack-tool-name)
-
-After using this template to create a new tool repository,
-replace all occurences of the following strings with the new tool name
-
-- Tool Name ( 9 occurences ) 
-- tool-name ( 14 occurences)
-- toolname ( 8 occurences )
+[![Build Status](https://travis-ci.org/ida-mediafoundry/jetpack-jetpack-patch-system-samples.svg?branch=master)](https://travis-ci.org/ida-mediafoundry/jetpack-jetpack-patch-system-samples) [![codecov](https://codecov.io/gh/ida-mediafoundry/jetpack-jetpack-patch-system-samples/branch/master/graph/badge.svg)](https://codecov.io/gh/ida-mediafoundry/jetpack-jetpack-patch-system-samples)
 
 
-# Jetpack - Tool Name
+
+# Jetpack - Patch System Samples
 (powered by iDA Mediafoundry)
 
 ## Description

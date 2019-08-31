@@ -7,7 +7,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>be.ida_mediafoundry.jetpack</groupId>
-        <artifactId>tool-name</artifactId>
+        <artifactId>jetpack-patch-system-samples</artifactId>
         <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -15,9 +15,9 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>tool-name.ui.apps</artifactId>
+    <artifactId>jetpack-patch-system-samples.ui.apps</artifactId>
     <packaging>content-package</packaging>
-    <name>Jetpack - Tool Name - UI apps</name>
+    <name>Jetpack - Patch System Samples- UI apps</name>
     <description>
         Tool description
     </description>
@@ -80,7 +80,7 @@
                     <filterSource>src/main/content/META-INF/vault/filter.xml</filterSource>
                     <verbose>true</verbose>
                     <failOnError>true</failOnError>
-                    <name>Jetpack-Tool-Name</name>
+                    <name>Jetpack-jetpack-patch-system-samples</name>
                     <group>Jetpack</group>
                     <properties>
                         <acHandling>merge_preserve</acHandling>
@@ -88,8 +88,8 @@
                     <embeddeds>
                         <embedded>
                             <groupId>be.ida_mediafoundry.jetpack</groupId>
-                            <artifactId>tool-name.core</artifactId>
-                            <target>/apps/jetpack/toolname/install</target>
+                            <artifactId>jetpack-patch-system-samples.core</artifactId>
+                            <target>/apps/jetpack/patchsystemsamples/install</target>
                         </embedded>
                     </embeddeds>
                 </configuration>
@@ -108,7 +108,7 @@
     <dependencies>
         <dependency>
             <groupId>be.ida_mediafoundry.jetpack</groupId>
-            <artifactId>tool-name.core</artifactId>
+            <artifactId>jetpack-patch-system-samples.core</artifactId>
             <version>${project.version}</version>
         </dependency>
 
