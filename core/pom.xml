@@ -5,13 +5,13 @@
     <parent>
         <groupId>be.ida_mediafoundry.jetpack</groupId>
         <artifactId>jetpack-patch-system-samples</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>jetpack-patch-system-samples.core</artifactId>
     <packaging>bundle</packaging>
-    <name>Jetpack - Patch System Samples- Core</name>
+    <name>Jetpack - Patch System Samples - Core</name>
     <description>Core bundle for Jetpack Patch System Samples</description>
 
     <build>

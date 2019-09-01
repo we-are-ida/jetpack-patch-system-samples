@@ -8,12 +8,13 @@ import java.util.Arrays;
 import java.util.List;
 
 @Component(immediate = true)
-public class OnDeployScriptRunnerImpl implements OnDeployScriptProvider {
+public class OnDeployScriptRunner implements OnDeployScriptProvider {
 
     @Override
     public List<OnDeployScript> getScripts() {
         return Arrays.asList(
-                new TestOnDeployScript()
+                new FailingOnDeployScript(),
+                new SuccessOnDeployScript()
                 // List of script instances - e.g. new MyScript1(), new MyScript2(), new MyScript3()
         );
     }

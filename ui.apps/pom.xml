@@ -8,7 +8,7 @@
     <parent>
         <groupId>be.ida_mediafoundry.jetpack</groupId>
         <artifactId>jetpack-patch-system-samples</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -17,7 +17,7 @@
     <!-- ====================================================================== -->
     <artifactId>jetpack-patch-system-samples.ui.apps</artifactId>
     <packaging>content-package</packaging>
-    <name>Jetpack - Patch System Samples- UI apps</name>
+    <name>Jetpack - Patch System Samples - UI apps</name>
     <description>
         Tool description
     </description>
