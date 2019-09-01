@@ -1,20 +1,11 @@
-[![Build Status](https://travis-ci.org/ida-mediafoundry/jetpack-jetpack-patch-system-samples.svg?branch=master)](https://travis-ci.org/ida-mediafoundry/jetpack-jetpack-patch-system-samples) [![codecov](https://codecov.io/gh/ida-mediafoundry/jetpack-jetpack-patch-system-samples/branch/master/graph/badge.svg)](https://codecov.io/gh/ida-mediafoundry/jetpack-jetpack-patch-system-samples)
-
-
 
 # Jetpack - Patch System Samples
 (powered by iDA Mediafoundry)
 
 ## Description
 
-# Pre-requisites
-
-# Tool Manaul
-
-# User configuration
-
-# Remote API
-
+Some samples in both Groovy scripts and ACS On-Deploy Scripts for the Patch System:
+https://jetpack.ida-mediafoundry.io/tools/patch-system.html
 
 ## Modules
 
